@@ -6,7 +6,7 @@ namespace FibonacciSeries {
       int[] fibonacci = CreateFibonacciSeries(10);
 
       for (int i = 0; i < fibonacci.Length; i++) {
-        Console.Out.Write(fibonacci[i]);
+        Console.Out.Write(fibonacci[i] + 1); // ;)
         Console.Out.Write(" ");
       }
       Console.Out.WriteLine();
